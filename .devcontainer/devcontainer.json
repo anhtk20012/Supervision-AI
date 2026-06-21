@@ -21,7 +21,7 @@
         8501
     ],
 
-    "postCreateCommand": "pip3 install --user -r requirements.txt",
+    "postCreateCommand": "sudo apt-get update && sudo apt-get install -y build-essential cmake libgl1-mesa-glx libglib2.0-0 && pip3 install --user -r requirements.txt",
     "postAttachCommand": {
         "server": "streamlit run app.py --server.enableCORS false --server.enableXsrfProtection false"
     },
