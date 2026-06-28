@@ -1,5 +1,7 @@
-face_recognition
-opencv-python
-opencv-python-headless
 streamlit
-pillow
+numpy
+Pillow
+cmake
+dlib
+face_recognition
+opencv-python-headless
