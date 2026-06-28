@@ -1,7 +1,2 @@
 build-essential
 cmake
-gfortran
-libopenblas-dev
-liblapack-dev
-libgl1
-libglib2.0-bin
